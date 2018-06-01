@@ -80,7 +80,7 @@ test_script:
   # installed library.
   - mkdir "../empty_folder"
   - cd "../empty_folder"
-  - pytest --showlocals --durations=20 --pyargs sklearn
+  - pytest --showlocals --pyargs sklearn
   # Move back to the project folder
   - cd "../scikit-learn"
 

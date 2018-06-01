@@ -24,7 +24,7 @@ inplace:
 	$(PYTHON) setup.py build_ext -i
 
 test-code: in
-	$(PYTEST) --showlocals -v sklearn --durations=20
+	$(PYTEST) --showlocals -v sklearn
 test-sphinxext:
 	$(PYTEST) --showlocals -v doc/sphinxext/
 test-doc:
